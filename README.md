@@ -74,15 +74,7 @@ The generated PDF contains a bar chart like this:
 
 ---
 
-## 🔒 Security Note
 
-⚠️ **Never upload your service account JSON key to GitHub**.
-To keep your project secure:
-
-* Add `*.json` to your `.gitignore`.
-* Use **environment variables** to store sensitive keys instead of hardcoding.
-
----
 
 ## 👤 Author
 
