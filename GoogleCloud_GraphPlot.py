@@ -11,7 +11,7 @@ from reportlab.graphics import renderPDF
 
 
 credentials = service_account.Credentials.from_service_account_file("taskproj-398609-2926bb2e71c9.json")
-project_id = 'taskproj-398609'
+project_id = 'your id'
 
 client = bigquery.Client(credentials=credentials, project=project_id,)
 
@@ -287,4 +287,5 @@ drawing.add(bc)
 
 # Save the PDF report
 renderPDF.draw(drawing, c, 99, 99, showBoundary=True)
+
 c.save()
